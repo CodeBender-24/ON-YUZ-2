@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #ad2460;
+  --brand-bg: #ffffff;
+}
+
+html,
+body {
+  background: var(--brand-bg);
+}
+
+body {
+  @apply text-gray-900 antialiased;
+}
+
+a {
+  @apply text-primary hover:underline;
+}
